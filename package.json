@@ -1,0 +1,29 @@
+{
+  "name": "typescript-mysql-model-sample",
+  "version": "1.0.0",
+  "description": "How-to-use typescript-mysql-model package",
+  "main": "index.js",
+  "scripts": {
+    "generate": "tsc generate --target es6 --module commonjs & node generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLapshin/typescript-mysql-model-sample.git"
+  },
+  "keywords": [
+    "typescript",
+    "mysql",
+    "model",
+    "orm",
+    "database"
+  ],
+  "author": "AntonLapshin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonLapshin/typescript-mysql-model-sample/issues"
+  },
+  "homepage": "https://github.com/AntonLapshin/typescript-mysql-model-sample#readme",
+  "dependencies": {
+    "typescript-mysql-model": "^1.1.24"
+  }
+}
